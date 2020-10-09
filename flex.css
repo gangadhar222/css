@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+h2{
+    color: #707070;
+    font-size: 1.5rem;
+}
+.container {
+    width: 95%;
+    max-width:980px;
+    margin: 0 auto;
+}
+.column{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.first {
+    max-width: 25%;
+}
+.second {
+    max-width: 45%;
+}
+.third{
+    max-width: 73%;
+}
+.bg{
+    background-color: #312614;
+}
+@media (max-width:600px){
+    .column{
+        flex-direction: column;
+    }
+    .first, .second, .third {
+        max-width: 100%;
+    }
+}
