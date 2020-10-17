@@ -3,7 +3,7 @@ import './navbar.css';
 
 export default function Navbar() {
     return (
-        <div className="container">
+        <div className="container flex">
             <div className="title">
                 <h1>Logo comes here</h1>
                 <p className="caption">Caption comes here</p>
